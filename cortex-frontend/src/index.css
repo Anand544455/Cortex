@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #2DD4BF;
+  color: #0B1E3D;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5db transparent;
+}
+
+.font-display {
+  letter-spacing: -0.01em;
+}
